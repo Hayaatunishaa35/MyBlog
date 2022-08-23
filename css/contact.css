@@ -1,0 +1,33 @@
+.contact{
+    height: 100vh;
+    display: flex;
+}
+.contact::after{
+    content: "";
+    background-image: url('../img/content_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 90vw;
+    /* margin: auto; */
+    height: inherit;
+    opacity: 0.18;
+    z-index: -1;
+}
+
+.contact h1{
+    font-family: var(--font3);
+}
+
+.contact-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-box input, textarea{
+    width: 40vw;
+    padding: 0.5rem;
+    margin: 10px 0px;
+}

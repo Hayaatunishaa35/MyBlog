@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/****************** navbar ******************/
+.navigation{
+    font-family: var(--font1);
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(72, 71, 71);
+    padding: 10px 0px;
+}
+
+.navleft{
+    font-size: x-large;
+    display: flex;
+}
+.navleft span{
+    margin: 0rem 5rem 0rem 0rem;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.navleft ul{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.navleft ul li{
+    list-style: none;
+    margin-right: 2rem;
+    font-family: var(--font2);
+}
+.navleft ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+.navleft ul li a:hover{
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 2px 7px;
+    background-color: black;
+    color: white;
+}
+
+/******************* content  ***********************/
+.content{
+    height: 100vh;
+    display: flex;
+    font-family: var(--font3);
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    z-index: 1;
+    font-size: large;
+    font-weight: bold;
+}
+.content::after{
+    content: "";
+    background-image: url('../img/content_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 90vw;
+    /* margin: auto; */
+    height: inherit;
+    opacity: 0.18;
+}
+
+#quote{
+    font-family: var(--font4);
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+
+/*****************articles  *******************/
+.home_articles{
+    height: auto;
+    /* background-color: rgb(244, 206, 206); */
+    font-family: var(--font3);
+}
+
+.home_article{
+    display: flex;
+    /* padding: 10px; */
+    /* margin: 10px; */
+}
+.home_article img{
+    width: 400px;
+    height: 200px;
+    border-radius: 22px;
+    margin: 10px;
+}
+.article_content{
+    align-self: center;
+    /* margin: 10px; */
+    /* padding: 0px 100px */
+}
+.article_content a{
+    text-decoration: none;
+    color: black;
+}
+/*********************footer***************/
+.footer{
+    height: 30px;
+    /* background-color: blue; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+.footer a{
+    text-decoration: none;
+    color:black;
+}

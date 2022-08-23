@@ -1,0 +1,21 @@
+.blogpage{
+    font-family: var(--font3);
+}
+.blogpage h1{
+    font-family: var(--font2);
+}
+#Quote{
+    font-family: var(--font4);
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.social_icon{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.social_icon svg{
+    margin: 5px;
+    cursor: pointer;
+}

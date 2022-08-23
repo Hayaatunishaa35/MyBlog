@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+:root{
+    --main-bg-color: brown;
+    --font1: 'Cormorant SC', serif;
+    --font2: 'Roboto', sans-serif;
+    --font3: 'Uchen', serif;
+    --font4: 'Dancing Script', cursive;
+}
+.max-width-1{
+    max-width: 90vw;
+}
+.max-width-2{
+    max-width: 60vw;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.btn{
+    padding: 0.1rem 2.2rem;
+    margin-right: 1.4rem;
+    border: 2px solid black;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    background-color: black;
+}
+.form-input{
+    padding: 0.1rem 2.2rem;
+    margin-right: 1.4rem;
+    border: 2px solid black;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+}
